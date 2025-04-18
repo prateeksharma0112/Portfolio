@@ -1,7 +1,7 @@
 # Welcome to Prateek Kumar Sharma's Portfolio
 <h2 align="center">
   Portfolio Website<br/>
-  Check it out: <a href="" target="_blank">Prateek.tech</a>
+  Check it out: <a href="https://prateekkumarsharma.vercel.app/" target="_blank">PrateekKumarSharma.com</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-showcase.png" />
@@ -20,7 +20,7 @@ Feel free to fork this repository and make any modifications you like! If you us
 
 ## Built With
 
-This personal portfolio, <a href="" target="_blank">Prateek.tech</a>, features some of my GitHub projects, my resume, and an overview of my technical skills.<br>
+This personal portfolio, <a href="https://prateekkumarsharma.vercel.app/" target="_blank">PrateekKumarSharma.com</a>, features some of my GitHub projects, my resume, and an overview of my technical skills.<br>
 
 The project was built using the following technologies:
 
