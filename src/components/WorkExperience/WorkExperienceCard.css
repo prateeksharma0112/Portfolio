@@ -1,0 +1,157 @@
+/* --------------- */
+/* Work Experience */
+/* --------------- */
+.workexperience-section {
+    position: relative !important;
+    padding-top: 120px !important;
+    padding-bottom: 30px !important;
+    background-image: var(--section-background-color) !important;
+}
+
+.workexperience-heading {
+    color: white !important;
+    font-size: 2.3em !important;
+    font-weight: 500 !important;
+    padding-top: 10px !important;
+}
+.work-experience-card {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    height: auto !important;
+}
+
+.work-experience-card-view {
+    box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+    color: white !important;
+    background-color: transparent !important;
+    opacity: 0.9 !important;
+    transition: all 0.5s ease 0s !important;
+    height: 100% !important;
+}
+
+.work-experience-card-view:hover {
+    transform: scale(1.02) !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+
+.work-experience-logo {
+    text-align: center;
+    /* padding-top: 10px; */
+    /* padding-bottom: 50; */
+}
+
+.company-logo {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+.company-name {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #a9a9a9;
+}
+.company-name:hover {
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* Details Section */
+.work-experience-details {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+/* Role and Position */
+.role-position {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.role-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 2px;
+    color:blueviolet;
+    text-align: left;
+}
+.job-type {
+    text-align: left;
+    font-size: 0.7rem;
+    color: #a9a9a9;
+    margin-bottom: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.location {
+    display: flex;
+    color: #a9a9a9;
+    flex-direction: column;
+    font-size: 1rem;
+    padding-right: 20px;
+}
+
+
+.timeline-box {
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.timeline {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    box-shadow: inset 0 0 0 0em blueviolet;
+    transition: box-shadow 0.5s ease-in 0.1s;
+}
+.work-experience-card:hover .timeline{
+    box-shadow: inset 30em 0 0 0 blueviolet;
+    color: white;
+    transition: box-shadow 0.5s ease-in 0.1s;
+    
+}
+
+.company-description {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 30px;
+    font-size: 0.8rem;
+    color: #a9a9a9;
+    margin-bottom: 10px;
+    text-align: left;
+    line-height: 1.5;
+}
+.responsibilities {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: disc;
+    margin: 0;
+    text-align: left;
+}
+
+.responsibilities li {
+    padding-right: 10px;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
