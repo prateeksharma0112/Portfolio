@@ -29,7 +29,7 @@ function Home() {
               <div className="current-location-box"><p className="current-location">📍 Kaiserslautern, Germany</p></div>
             </Col>
 
-            <Col md={5} style={{ padding:"80px"}}>
+            <Col md={5} style={{ padding:"40px"}}>
             <div className="home-img">
               <img
                 src={myPhoto}
