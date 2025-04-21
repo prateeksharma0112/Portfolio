@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import { CiMail } from "react-icons/ci";
 
 const ContactMe = () => {
   const [formData, setFormData] = useState({
@@ -48,7 +49,7 @@ const ContactMe = () => {
 
   return (
     <div className="contact-me">
-      <h2 className="contact-heading">Contact Me</h2>
+      <h2 className="contact-heading"><CiMail/> Contact Me</h2>
       {submitted && (
         <p className="success-message">
           Thank you for reaching out! I'll get back to you soon.
@@ -99,7 +100,7 @@ const ContactMe = () => {
             required
           />
         </div>
-        <button type="submit" disabled={loading}>
+        <button type="submit" disabled={loading} className="submit-button">
           {loading ? "Sending..." : "Send Message"}
         </button>
       </form>
