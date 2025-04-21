@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Home/avatar.svg";
+import myImg from "../../Assets/Home/avatar.png";
 import FindMeOn from "./../About/FineMeOn.js";
 import ContactMe from "./ContactMe";
 
@@ -12,8 +12,8 @@ function Home2() {
           <Col md={7} className="home-about-description">
             <ContactMe />
           </Col>
-          <Col md={5} className="myAvtar">
-              <img src={myImg} className="img-fluid" alt="avatar" />
+          <Col md={5} className="myAvtar" >
+              <img src={myImg} className="img-fluid" alt="avatar" style={{width: "350px"}} />
               <FindMeOn />
           </Col>
         </Row>
