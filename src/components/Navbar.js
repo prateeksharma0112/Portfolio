@@ -57,6 +57,7 @@ function NavBar() {
           <span></span>
           <span></span>
         </Navbar.Toggle>
+        
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
@@ -97,6 +98,7 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
+            
             <Nav.Item>
               <Nav.Link
                 href="https://technojamz.blogspot.com/"
