@@ -748,6 +748,31 @@ button:focus {
     padding-top: 0 !important;
   }
 }
+
+/* Keyframes for floating animation */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Apply animation to the image */
+.animated-image {
+  animation: float 3s ease-in-out infinite; /* Floating animation */
+  transition: transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.animated-image:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+
 /* --------- */
 /* Resume */
 /* --------- */

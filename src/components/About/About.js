@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/About/about.png";
+import about from "../../Assets/About/about.png";
 import Toolstack from "./Toolstack";
 import FindMeOn from "./FineMeOn";
 function About() {
@@ -28,10 +28,10 @@ function About() {
           </Col>
           <Col
             md={4}
-            style={{ paddingTop: "180px", paddingBottom: "50px" }}
+            style={{ paddingTop: "60px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={about} alt="about" className="img-fluid animated-image" />
             <FindMeOn />
           </Col>
         </Row>
