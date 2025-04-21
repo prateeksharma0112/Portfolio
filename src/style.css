@@ -298,8 +298,8 @@ button:focus {
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 10px !important;
-  padding-top: 10px !important;
+  padding-bottom: 40px !important;
+  padding-top: 2px !important;
 }
 
 .home-content {
