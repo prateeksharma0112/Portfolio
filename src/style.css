@@ -374,6 +374,17 @@ button:focus {
   }
 }
 
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.myAvtar img {
+  animation: float 1s ease-in-out infinite;
+}
+
+
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
