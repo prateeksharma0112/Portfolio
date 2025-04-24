@@ -96,7 +96,7 @@ const ContactMe = () => {
             placeholder="Write your message here"
             value={formData.message}
             onChange={handleChange}
-            rows="4"
+            rows="5"
             required
           />
         </div>
