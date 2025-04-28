@@ -4,7 +4,7 @@
   Check it out: <a href="https://prateekkumarsharma.vercel.app/" target="_blank">PrateekKumarSharma.com</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-showcase.png" />
+  <img alt="Demo" src="./Images/readmeShowcase.png" />
 </div>
 
 <br/>
