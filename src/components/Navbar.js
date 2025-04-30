@@ -12,7 +12,7 @@ import {
   AiOutlineDownload,
 } from "react-icons/ai";
 import { MdOutlineWorkOutline } from "react-icons/md";
-import pdf from "../Assets/../Assets/Resume_Prateek_Kumar_Sharma.pdf";
+import pdf from "../Assets/Resume_PrateekKumarSharma.pdf";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
