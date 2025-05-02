@@ -39,7 +39,7 @@ function NavBar() {
         <Navbar.Brand className="d-flex">
           <a
           href={pdf}
-          download="Prateek_Kumar_Sharma_Resume.pdf"
+          download="PrateekKumarSharma_Resume.pdf"
           className="download-cv-btn"
         >
           <Button className="download-button">
