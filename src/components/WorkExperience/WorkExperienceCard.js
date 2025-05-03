@@ -14,7 +14,16 @@ function WorkExperienceCard(props) {
             alt="company-logo"
             className="company-logo"
           />
-          <div className="company-name" >{props.companyName}{/* Company name under logo */}</div>
+          <div className="company-name" >
+          <a
+              href={props.companyLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="company-link"
+            >
+              {props.companyName}
+            </a>
+          </div>
         </Col>
 
         {/* Right Section: Role, Timeline, Location */}
@@ -28,8 +37,12 @@ function WorkExperienceCard(props) {
             <strong>About the company :</strong>
             <p>{props.companyDescription}</p>
           </div>
+          <div className="project-description">
+            <strong>Project Description :</strong>
+            <p>{props.projectDescription}</p>
+          </div>
           <div className="responsibilities">
-            <strong>Responsibilities :</strong>
+            <strong>⭐ Key Contributions & Achievements :</strong>
             <ul>
               {props.responsibilities.map((item, index) => (
                 <li key={index}>{item}</li>

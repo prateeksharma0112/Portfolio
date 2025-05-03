@@ -24,14 +24,16 @@ function WorkExperience() {
               role="Research Assistant"
               timeline="December 2024 - Present"
               companyName="DFKI"
+              companyLink="https://www.dfki.de/en/web/research/research-departments/augmented-vision"
               location="Kaiserslautern, Germany"
               jobtype="Working Student"
               companyDescription="The German Research Center for Artificial Intelligence (DFKI) is Germany’s leading industry-focused AI research institute, pioneering cutting-edge solutions across sectors through innovative, application-driven research."
+              projectDescription="BERTHA is a Horizon Europe project aimed at developing a scalable, probabilistic Driver Behavioral Model (DBM) using Bayesian Belief Networks to replicate human driving behavior in autonomous vehicles. The goal is to enhance safety, predictability, and acceptance in mixed traffic environments. The DBM will be digitally validated through CARLA and immersive simulators and shared via an open-source HUB. This initiative supports industry-wide standardization and collaboration across the Connected, Cooperative, and Automated Mobility (CCAM) ecosystem."
               responsibilities={[
-                "Operating driving simulators at DFKI to assist with ongoing data collection for autonomous vehicle research.",
-                "Designing and testing realistic driving scenarios tailored to specific use cases in developing autonomous systems.",
-                "Writing and maintaining Python scripts to process and extract sensor data from simulated vehicles.",
-                "Developing and refining machine learning models to simulate human-like perception for safer and more predictable autonomous driving."
+                "Operated and maintained CARLA driving simulators to ensure accurate and efficient data collection for autonomous vehicle research.",
+                "Designed realistic driving scenarios using Scenic and XML, aligned with specific use cases in autonomous vehicle development.",
+                "Developed Python scripts for extracting and processing sensor data from simulated vehicle environments, enabling enhanced data for model development.",
+                "Built machine learning models to replicate human-like perception, optimizing behavioral accuracy and realism in autonomous driving systems."
               ]}
             />
           </Col>
@@ -42,16 +44,17 @@ function WorkExperience() {
               role="Associate Software Engineer - Data Science"
               timeline="July 2022 - June 2023"
               companyName="Ferns N Petals (fnp)"
+              companyLink="https://www.fnp.com/"
               location="Gurugram, India"
               jobtype="Full-Time"
               companyDescription="Ferns N Petals (FNP) is a leading online gifting and flower delivery service in India, specializing in personalized gifts and floral arrangements for various occasions, and delivering happiness across multiple countries."
+              projectDescription="The Auto Tagging Tool project aimed to automate the product categorization process for FNP, an e-commerce platform with a diverse product range. Leveraging machine learning (ML) and natural language processing (NLP), the tool automatically assigns relevant tags to products, reducing manual effort. It also optimizes the management of product preferences, ensuring correct product display order based on predefined criteria such as popularity, relevance, and seasonality. This solution enhances operational efficiency, accuracy, and customer experience, enabling FNP to scale its product catalog more effectively."
               responsibilities = {[
-                "Contributed to developing the Auto-Tagging Tool to categorize products, and created an algorithm for product categorization using machine learning and NLP techniques.",
+                "Contributed to developing an Auto-Tagging Tool using Django and MongoDB; designed APIs and implemented ML/NLP pipelines to automate product categorization and improve operational efficiency.",
                 "Designed & implemented a Support Vector Machine (SVM) model with OneVsRest classification, improving user recommendation accuracy by 89%.",
-                "Reduced data processing time by 20% by applying dimensionality reduction techniques like PCA to enhance model performance.",
-                "Executed the complete end-to-end data science workflow, including data collection, cleaning, exploration, visualization, modeling, evaluation, and deployment.",
-                "Built a full-stack web application using Django integrated with MongoDB, providing real-time access for business users, and reducing reporting delays by 30%.",
-                "Prepared analytical reports and presented data-driven insights to cross-functional teams, streamlining decision-making processes."
+                "Reduced data processing time by 20% through dimensionality reduction techniques such as PCA, enhancing model performance.",
+                "Executed the full data science workflow: data collection, cleaning, exploration, visualization, modeling, evaluation, and deployment.",
+                "Prepared analytical reports and presented data-driven insights to cross-functional teams, supporting faster and more informed decision-making."
               ]}
             />
           </Col>
