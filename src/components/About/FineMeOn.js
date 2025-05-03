@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
+import { FaXTwitter } from "react-icons/fa6";
 
 function FindMeOn() {
   return (
@@ -66,7 +66,7 @@ function FindMeOn() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <FaXTwitter />
                 </a>
               </li>
             </ul>
