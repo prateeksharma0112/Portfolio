@@ -22,7 +22,7 @@ function WorkExperience() {
             <WorkExperienceCard
               imgPath={DFKI}
               role="Research Assistant"
-              timeline="December 2024 - Present"
+              timeline="December 2024 - August 2025"
               companyName="DFKI"
               companyLink="https://www.dfki.de/en/web/research/research-departments/augmented-vision"
               location="Kaiserslautern, Germany"
@@ -41,7 +41,7 @@ function WorkExperience() {
           <Col md={12} className="work-experience-card">
             <WorkExperienceCard
               imgPath={fnp}
-              role="Associate Software Engineer - Data Science"
+              role="Software Engineer - Data Science"
               timeline="July 2022 - June 2023"
               companyName="Ferns N Petals (fnp)"
               companyLink="https://www.fnp.com/"
